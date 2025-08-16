@@ -9,7 +9,7 @@ jobs:
   steps:
     - run: |
         result=$(expr 2 + 2)
-        echo "2 + 2 = &result"
+        echo "2 + 2 = $result"
 
 
 
