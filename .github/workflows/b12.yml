@@ -1,10 +1,10 @@
 name : My First Workflow 
 
-on : Push 
+on : push 
 
-Jobs : 
+jobs : 
 print : 
-runs-on : Ubantu-latest
+runs-on : ubantu-latest
 
-Steps : 
+Steps: 
 -run : echo "Hello Everyone ,Good Morning"
